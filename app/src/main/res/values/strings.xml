@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ComputerMaintenance</string>
+    <string name="button_register">REGISTER</string>
+    <string name="button_signin">SIGN IN</string>
+    <string name="button_aboutus">ABOUT US</string>
+    <string name="button_quickcomplaint">QUICK COMPLAINT</string>
+    <string name="button_faqs">FAQs</string>
+</resources>
