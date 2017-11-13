@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#5870cb"
+
     tools:context="com.example.android.computermaintenance.MainActivity">
 
     <Button
@@ -13,6 +15,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginStart="16dp"
         android:text="@string/button_register"
+        android:background="#ffeb3b"
         app:layout_constraintBottom_toTopOf="@+id/button_signin"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -26,6 +29,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginStart="16dp"
         android:text="@string/button_signin"
+        android:background="#ffeb3b"
         app:layout_constraintBottom_toTopOf="@+id/button_quickcomplaint"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -39,6 +43,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginStart="16dp"
         android:text="@string/button_quickcomplaint"
+        android:background="#ffeb3b"
         app:layout_constraintBottom_toTopOf="@+id/button_aboutus"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -52,6 +57,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginStart="16dp"
         android:text="@string/button_aboutus"
+        android:background="#ffeb3b"
         app:layout_constraintBottom_toTopOf="@+id/button_faqs"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -65,6 +71,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginStart="16dp"
         android:text="@string/button_faqs"
+        android:background="#ffeb3b"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
