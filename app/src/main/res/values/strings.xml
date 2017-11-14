@@ -5,4 +5,6 @@
     <string name="button_aboutus">ABOUT US</string>
     <string name="button_quickcomplaint">QUICK COMPLAINT</string>
     <string name="button_faqs">FAQs</string>
+    <string name="Text_Quote">Tech To Your Home</string>
+    <string name="appname">TECH_ONLINE</string>
 </resources>
