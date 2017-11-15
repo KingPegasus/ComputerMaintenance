@@ -17,16 +17,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".MainActivity"
+        <activity
+            android:name=".MainActivity"
             android:parentActivityName=".NewMainActivity"
             tools:targetApi="jelly_bean">
+
             <!-- The meta-data tag is required if you support API level 15 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".NewMainActivity" />
         </activity>
-
+        <activity android:name=".SignInActivity"></activity>
     </application>
 
 </manifest>

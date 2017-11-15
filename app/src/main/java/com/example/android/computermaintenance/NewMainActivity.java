@@ -25,4 +25,14 @@ public class NewMainActivity extends AppCompatActivity {
 
         startActivity(intent);
     }
+
+    /** Called when the user taps the Signin button */
+    public void signIn(View view) {
+        // Do something in response to button
+        // SignInActivity is handling SignIn Process
+
+        Intent intent = new Intent(this, SignInActivity.class);
+
+        startActivity(intent);
+    }
 }
