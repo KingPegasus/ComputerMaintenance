@@ -7,4 +7,10 @@
     <string name="button_faqs">FAQs</string>
     <string name="Text_Quote">Tech To Your Home</string>
     <string name="appname">TECH_ONLINE</string>
+    <string name="textview_Name">Name</string>
+    <string name="textview_Password">Create Password</string>
+    <string name="textview_confirmPassword">Confirm Password</string>
+    <string name="button_sendOTP">Send Verification Code</string>
+    <string name="textview_mobileNumber">Mobile Number</string>
+    <string name="textview_errorMsg">Password Mismatch</string>
 </resources>
