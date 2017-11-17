@@ -16,7 +16,6 @@ public class SmsReceiver extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {
         Bundle bundle = intent.getExtras();
-        Toast.makeText(context,"OnReceive", Toast.LENGTH_SHORT).show();
         if(bundle != null) {
             Object[] pdus = (Object[]) bundle.get("pdus");
             String format = bundle.getString("format");
