@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.android.computermaintenance">
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+
 
     <application
         android:allowBackup="true"
@@ -18,7 +20,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".RegisterActivity"
             android:parentActivityName=".NewMainActivity"
             tools:targetApi="jelly_bean">
 
@@ -27,7 +29,21 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".NewMainActivity" />
         </activity>
-        <activity android:name=".SignInActivity"></activity>
+        <activity android:name=".SignInActivity"
+            android:parentActivityName=".NewMainActivity"
+            tools:targetApi="jelly_bean">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".NewMainActivity" />
+        </activity>
+
+        <receiver android:name=".SmsReceiver">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+
     </application>
 
 </manifest>
